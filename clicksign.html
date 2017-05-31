@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>iOS e JS</title>
+	<style type="text/css">
+	  * {
+	  	font-size: 40px;
+	  }
+	</style>
+</head>
+
+<body>
+  
+<div style="margin-top: 100px">
+	<h1>Testes malandros marotos</h1><br/>
+	<div><input type="button" value="call js alert" onclick="callJsAlert()"></div>
+    <br/>
+	<div><input type="button" value="Call js confirm" onclick="callJsConfirm()"></div><br/>
+</div>
+<br/>
+<div>
+	<div><input type="button" value="Call Js prompt " onclick="callJsInput()"></div><br/>
+  <div><input type="button" value="Swift inject js" onclick="showAlert()"></div><br/>
+  <div>Click AQUI mano: <a href="http://www.clicksign.com">Acessar ClickSign</a></div>
+</div>
+
+<br/>
+<div id="SwiftDiv">
+	<span id="jsParamFuncSpan" style="color: red; font-size: 50px;"></span>
+</div>
+
+<script type="text/javascript">
+   function callJsAlert() {
+   	alert('Objective-C alert');
+    
+    window.webkit.messageHandlers.AppModel.postMessage({body: 'JS ALERT'});
+   }
+function callJsConfirm() {
+  if (confirm('confirm', 'Objective-C alert')) {
+    document.getElementById('jsParamFuncSpan').innerHTML
+    = 'true';
+  } else {
+    document.getElementById('jsParamFuncSpan').innerHTML
+    = 'false';
+  }
+  
+  window.webkit.messageHandlers.AppModel.postMessage({body: 'JS ALERT'});
+}
+function callJsInput() {
+  var response = prompt('Olá Maluco', 'Digite seu nome:');
+  document.getElementById('jsParamFuncSpan').innerHTML = response;
+  
+  window.webkit.messageHandlers.AppModel.postMessage({body: response});
+}
+
+var jsParamFunc = function(argument) {
+  document.getElementById('jsParamFuncSpan').innerHTML
+  = argument['name'];
+}
+showAler();
+</script>
+</body>
+</html>

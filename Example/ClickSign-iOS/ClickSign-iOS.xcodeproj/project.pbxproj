@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B694BF7F1EDE1911007F51AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694BF7E1EDE1911007F51AA /* AppDelegate.swift */; };
+		B694BF811EDE1911007F51AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694BF801EDE1911007F51AA /* ViewController.swift */; };
+		B694BF841EDE1911007F51AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B694BF821EDE1911007F51AA /* Main.storyboard */; };
+		B694BF861EDE1911007F51AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B694BF851EDE1911007F51AA /* Assets.xcassets */; };
+		B694BF891EDE1911007F51AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B694BF871EDE1911007F51AA /* LaunchScreen.storyboard */; };
+		B694BF941EDE1911007F51AA /* ClickSign_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694BF931EDE1911007F51AA /* ClickSign_iOSTests.swift */; };
+		B694BF9F1EDE1946007F51AA /* ClickSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = B694BF9E1EDE1946007F51AA /* ClickSign.swift */; };
+		B694BFA31EDF0491007F51AA /* clicksign.html in Resources */ = {isa = PBXBuildFile; fileRef = B694BFA21EDF0491007F51AA /* clicksign.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B694BF901EDE1911007F51AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B694BF731EDE1911007F51AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B694BF7A1EDE1911007F51AA;
+			remoteInfo = "ClickSign-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B694BF7B1EDE1911007F51AA /* ClickSign-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ClickSign-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B694BF7E1EDE1911007F51AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B694BF801EDE1911007F51AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B694BF831EDE1911007F51AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B694BF851EDE1911007F51AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B694BF881EDE1911007F51AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B694BF8A1EDE1911007F51AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B694BF8F1EDE1911007F51AA /* ClickSign-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ClickSign-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B694BF931EDE1911007F51AA /* ClickSign_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickSign_iOSTests.swift; sourceTree = "<group>"; };
+		B694BF951EDE1911007F51AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B694BF9E1EDE1946007F51AA /* ClickSign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClickSign.swift; path = ../../../ClickSign.swift; sourceTree = "<group>"; };
+		B694BFA21EDF0491007F51AA /* clicksign.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = clicksign.html; path = ../../../clicksign.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B694BF781EDE1911007F51AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B694BF8C1EDE1911007F51AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B694BF721EDE1911007F51AA = {
+			isa = PBXGroup;
+			children = (
+				B694BF7D1EDE1911007F51AA /* ClickSign-iOS */,
+				B694BF921EDE1911007F51AA /* ClickSign-iOSTests */,
+				B694BF7C1EDE1911007F51AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B694BF7C1EDE1911007F51AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B694BF7B1EDE1911007F51AA /* ClickSign-iOS.app */,
+				B694BF8F1EDE1911007F51AA /* ClickSign-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B694BF7D1EDE1911007F51AA /* ClickSign-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B694BFA21EDF0491007F51AA /* clicksign.html */,
+				B694BF9E1EDE1946007F51AA /* ClickSign.swift */,
+				B694BF7E1EDE1911007F51AA /* AppDelegate.swift */,
+				B694BF801EDE1911007F51AA /* ViewController.swift */,
+				B694BF821EDE1911007F51AA /* Main.storyboard */,
+				B694BF851EDE1911007F51AA /* Assets.xcassets */,
+				B694BF871EDE1911007F51AA /* LaunchScreen.storyboard */,
+				B694BF8A1EDE1911007F51AA /* Info.plist */,
+			);
+			path = "ClickSign-iOS";
+			sourceTree = "<group>";
+		};
+		B694BF921EDE1911007F51AA /* ClickSign-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B694BF931EDE1911007F51AA /* ClickSign_iOSTests.swift */,
+				B694BF951EDE1911007F51AA /* Info.plist */,
+			);
+			path = "ClickSign-iOSTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B694BF7A1EDE1911007F51AA /* ClickSign-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B694BF981EDE1911007F51AA /* Build configuration list for PBXNativeTarget "ClickSign-iOS" */;
+			buildPhases = (
+				B694BF771EDE1911007F51AA /* Sources */,
+				B694BF781EDE1911007F51AA /* Frameworks */,
+				B694BF791EDE1911007F51AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ClickSign-iOS";
+			productName = "ClickSign-iOS";
+			productReference = B694BF7B1EDE1911007F51AA /* ClickSign-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B694BF8E1EDE1911007F51AA /* ClickSign-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B694BF9B1EDE1911007F51AA /* Build configuration list for PBXNativeTarget "ClickSign-iOSTests" */;
+			buildPhases = (
+				B694BF8B1EDE1911007F51AA /* Sources */,
+				B694BF8C1EDE1911007F51AA /* Frameworks */,
+				B694BF8D1EDE1911007F51AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B694BF911EDE1911007F51AA /* PBXTargetDependency */,
+			);
+			name = "ClickSign-iOSTests";
+			productName = "ClickSign-iOSTests";
+			productReference = B694BF8F1EDE1911007F51AA /* ClickSign-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B694BF731EDE1911007F51AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ezequiel França";
+				TargetAttributes = {
+					B694BF7A1EDE1911007F51AA = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2MK765758P;
+						ProvisioningStyle = Automatic;
+					};
+					B694BF8E1EDE1911007F51AA = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2MK765758P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B694BF7A1EDE1911007F51AA;
+					};
+				};
+			};
+			buildConfigurationList = B694BF761EDE1911007F51AA /* Build configuration list for PBXProject "ClickSign-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B694BF721EDE1911007F51AA;
+			productRefGroup = B694BF7C1EDE1911007F51AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B694BF7A1EDE1911007F51AA /* ClickSign-iOS */,
+				B694BF8E1EDE1911007F51AA /* ClickSign-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B694BF791EDE1911007F51AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B694BFA31EDF0491007F51AA /* clicksign.html in Resources */,
+				B694BF891EDE1911007F51AA /* LaunchScreen.storyboard in Resources */,
+				B694BF861EDE1911007F51AA /* Assets.xcassets in Resources */,
+				B694BF841EDE1911007F51AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B694BF8D1EDE1911007F51AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B694BF771EDE1911007F51AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B694BF811EDE1911007F51AA /* ViewController.swift in Sources */,
+				B694BF9F1EDE1946007F51AA /* ClickSign.swift in Sources */,
+				B694BF7F1EDE1911007F51AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B694BF8B1EDE1911007F51AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B694BF941EDE1911007F51AA /* ClickSign_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B694BF911EDE1911007F51AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B694BF7A1EDE1911007F51AA /* ClickSign-iOS */;
+			targetProxy = B694BF901EDE1911007F51AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B694BF821EDE1911007F51AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B694BF831EDE1911007F51AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B694BF871EDE1911007F51AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B694BF881EDE1911007F51AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B694BF961EDE1911007F51AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B694BF971EDE1911007F51AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B694BF991EDE1911007F51AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2MK765758P;
+				INFOPLIST_FILE = "ClickSign-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ezefranca.ClickSign-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B694BF9A1EDE1911007F51AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2MK765758P;
+				INFOPLIST_FILE = "ClickSign-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ezefranca.ClickSign-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B694BF9C1EDE1911007F51AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2MK765758P;
+				INFOPLIST_FILE = "ClickSign-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ezefranca.ClickSign-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickSign-iOS.app/ClickSign-iOS";
+			};
+			name = Debug;
+		};
+		B694BF9D1EDE1911007F51AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2MK765758P;
+				INFOPLIST_FILE = "ClickSign-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ezefranca.ClickSign-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickSign-iOS.app/ClickSign-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B694BF761EDE1911007F51AA /* Build configuration list for PBXProject "ClickSign-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B694BF961EDE1911007F51AA /* Debug */,
+				B694BF971EDE1911007F51AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B694BF981EDE1911007F51AA /* Build configuration list for PBXNativeTarget "ClickSign-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B694BF991EDE1911007F51AA /* Debug */,
+				B694BF9A1EDE1911007F51AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B694BF9B1EDE1911007F51AA /* Build configuration list for PBXNativeTarget "ClickSign-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B694BF9C1EDE1911007F51AA /* Debug */,
+				B694BF9D1EDE1911007F51AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B694BF731EDE1911007F51AA /* Project object */;
+}
